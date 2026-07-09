@@ -4,8 +4,6 @@ import StudyInfo from './StudyInfo';
 function StudyList({ items, selectedId, onSelect }) {
   return (
     <div>
-      <h2>학습 목록</h2>
-
       {items.map((item) => {
         const isActive = item.id === selectedId;
 
